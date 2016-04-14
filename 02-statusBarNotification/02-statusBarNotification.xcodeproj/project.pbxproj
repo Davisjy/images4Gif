@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFFD05E11CBF46DA00DA18C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFD05E01CBF46DA00DA18C9 /* main.m */; };
+		CFFD05E41CBF46DA00DA18C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFD05E31CBF46DA00DA18C9 /* AppDelegate.m */; };
+		CFFD05E71CBF46DA00DA18C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFD05E61CBF46DA00DA18C9 /* ViewController.m */; };
+		CFFD05EA1CBF46DA00DA18C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFFD05E81CBF46DA00DA18C9 /* Main.storyboard */; };
+		CFFD05EC1CBF46DA00DA18C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFFD05EB1CBF46DA00DA18C9 /* Assets.xcassets */; };
+		CFFD05EF1CBF46DA00DA18C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFFD05ED1CBF46DA00DA18C9 /* LaunchScreen.storyboard */; };
+		CFFD05FA1CBF46DA00DA18C9 /* _2_statusBarNotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFD05F91CBF46DA00DA18C9 /* _2_statusBarNotificationTests.m */; };
+		CFFD06051CBF46DA00DA18C9 /* _2_statusBarNotificationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFD06041CBF46DA00DA18C9 /* _2_statusBarNotificationUITests.m */; };
+		CFFD06181CBF475C00DA18C9 /* JYStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFD06171CBF475C00DA18C9 /* JYStatusBar.m */; };
+		CFFD061C1CBF6B1100DA18C9 /* CBAutoScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFD061B1CBF6B1100DA18C9 /* CBAutoScrollLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFFD05F61CBF46DA00DA18C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFFD05D41CBF46D900DA18C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFFD05DB1CBF46D900DA18C9;
+			remoteInfo = "02-statusBarNotification";
+		};
+		CFFD06011CBF46DA00DA18C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFFD05D41CBF46D900DA18C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFFD05DB1CBF46D900DA18C9;
+			remoteInfo = "02-statusBarNotification";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFFD05DC1CBF46DA00DA18C9 /* 02-statusBarNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-statusBarNotification.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFD05E01CBF46DA00DA18C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFFD05E21CBF46DA00DA18C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CFFD05E31CBF46DA00DA18C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CFFD05E51CBF46DA00DA18C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CFFD05E61CBF46DA00DA18C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CFFD05E91CBF46DA00DA18C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFFD05EB1CBF46DA00DA18C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFFD05EE1CBF46DA00DA18C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFFD05F01CBF46DA00DA18C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFFD05F51CBF46DA00DA18C9 /* 02-statusBarNotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-statusBarNotificationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFD05F91CBF46DA00DA18C9 /* _2_statusBarNotificationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _2_statusBarNotificationTests.m; sourceTree = "<group>"; };
+		CFFD05FB1CBF46DA00DA18C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFFD06001CBF46DA00DA18C9 /* 02-statusBarNotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-statusBarNotificationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFD06041CBF46DA00DA18C9 /* _2_statusBarNotificationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _2_statusBarNotificationUITests.m; sourceTree = "<group>"; };
+		CFFD06061CBF46DA00DA18C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFFD06161CBF475C00DA18C9 /* JYStatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYStatusBar.h; sourceTree = "<group>"; };
+		CFFD06171CBF475C00DA18C9 /* JYStatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYStatusBar.m; sourceTree = "<group>"; };
+		CFFD061A1CBF6B1100DA18C9 /* CBAutoScrollLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBAutoScrollLabel.h; sourceTree = "<group>"; };
+		CFFD061B1CBF6B1100DA18C9 /* CBAutoScrollLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBAutoScrollLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFFD05D91CBF46D900DA18C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFD05F21CBF46DA00DA18C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFD05FD1CBF46DA00DA18C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFFD05D31CBF46D900DA18C9 = {
+			isa = PBXGroup;
+			children = (
+				CFFD05DE1CBF46DA00DA18C9 /* 02-statusBarNotification */,
+				CFFD05F81CBF46DA00DA18C9 /* 02-statusBarNotificationTests */,
+				CFFD06031CBF46DA00DA18C9 /* 02-statusBarNotificationUITests */,
+				CFFD05DD1CBF46DA00DA18C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFFD05DD1CBF46DA00DA18C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFFD05DC1CBF46DA00DA18C9 /* 02-statusBarNotification.app */,
+				CFFD05F51CBF46DA00DA18C9 /* 02-statusBarNotificationTests.xctest */,
+				CFFD06001CBF46DA00DA18C9 /* 02-statusBarNotificationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFFD05DE1CBF46DA00DA18C9 /* 02-statusBarNotification */ = {
+			isa = PBXGroup;
+			children = (
+				CFFD05E21CBF46DA00DA18C9 /* AppDelegate.h */,
+				CFFD05E31CBF46DA00DA18C9 /* AppDelegate.m */,
+				CFFD05E51CBF46DA00DA18C9 /* ViewController.h */,
+				CFFD05E61CBF46DA00DA18C9 /* ViewController.m */,
+				CFFD06191CBF6B1100DA18C9 /* CBAutoScrollLabel */,
+				CFFD06151CBF472500DA18C9 /* StatusBar */,
+				CFFD05E81CBF46DA00DA18C9 /* Main.storyboard */,
+				CFFD05EB1CBF46DA00DA18C9 /* Assets.xcassets */,
+				CFFD05ED1CBF46DA00DA18C9 /* LaunchScreen.storyboard */,
+				CFFD05F01CBF46DA00DA18C9 /* Info.plist */,
+				CFFD05DF1CBF46DA00DA18C9 /* Supporting Files */,
+			);
+			path = "02-statusBarNotification";
+			sourceTree = "<group>";
+		};
+		CFFD05DF1CBF46DA00DA18C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFFD05E01CBF46DA00DA18C9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFFD05F81CBF46DA00DA18C9 /* 02-statusBarNotificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFFD05F91CBF46DA00DA18C9 /* _2_statusBarNotificationTests.m */,
+				CFFD05FB1CBF46DA00DA18C9 /* Info.plist */,
+			);
+			path = "02-statusBarNotificationTests";
+			sourceTree = "<group>";
+		};
+		CFFD06031CBF46DA00DA18C9 /* 02-statusBarNotificationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFFD06041CBF46DA00DA18C9 /* _2_statusBarNotificationUITests.m */,
+				CFFD06061CBF46DA00DA18C9 /* Info.plist */,
+			);
+			path = "02-statusBarNotificationUITests";
+			sourceTree = "<group>";
+		};
+		CFFD06151CBF472500DA18C9 /* StatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				CFFD06161CBF475C00DA18C9 /* JYStatusBar.h */,
+				CFFD06171CBF475C00DA18C9 /* JYStatusBar.m */,
+			);
+			path = StatusBar;
+			sourceTree = "<group>";
+		};
+		CFFD06191CBF6B1100DA18C9 /* CBAutoScrollLabel */ = {
+			isa = PBXGroup;
+			children = (
+				CFFD061A1CBF6B1100DA18C9 /* CBAutoScrollLabel.h */,
+				CFFD061B1CBF6B1100DA18C9 /* CBAutoScrollLabel.m */,
+			);
+			path = CBAutoScrollLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFFD05DB1CBF46D900DA18C9 /* 02-statusBarNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFFD06091CBF46DA00DA18C9 /* Build configuration list for PBXNativeTarget "02-statusBarNotification" */;
+			buildPhases = (
+				CFFD05D81CBF46D900DA18C9 /* Sources */,
+				CFFD05D91CBF46D900DA18C9 /* Frameworks */,
+				CFFD05DA1CBF46D900DA18C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-statusBarNotification";
+			productName = "02-statusBarNotification";
+			productReference = CFFD05DC1CBF46DA00DA18C9 /* 02-statusBarNotification.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFFD05F41CBF46DA00DA18C9 /* 02-statusBarNotificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFFD060C1CBF46DA00DA18C9 /* Build configuration list for PBXNativeTarget "02-statusBarNotificationTests" */;
+			buildPhases = (
+				CFFD05F11CBF46DA00DA18C9 /* Sources */,
+				CFFD05F21CBF46DA00DA18C9 /* Frameworks */,
+				CFFD05F31CBF46DA00DA18C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFFD05F71CBF46DA00DA18C9 /* PBXTargetDependency */,
+			);
+			name = "02-statusBarNotificationTests";
+			productName = "02-statusBarNotificationTests";
+			productReference = CFFD05F51CBF46DA00DA18C9 /* 02-statusBarNotificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFFD05FF1CBF46DA00DA18C9 /* 02-statusBarNotificationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFFD060F1CBF46DA00DA18C9 /* Build configuration list for PBXNativeTarget "02-statusBarNotificationUITests" */;
+			buildPhases = (
+				CFFD05FC1CBF46DA00DA18C9 /* Sources */,
+				CFFD05FD1CBF46DA00DA18C9 /* Frameworks */,
+				CFFD05FE1CBF46DA00DA18C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFFD06021CBF46DA00DA18C9 /* PBXTargetDependency */,
+			);
+			name = "02-statusBarNotificationUITests";
+			productName = "02-statusBarNotificationUITests";
+			productReference = CFFD06001CBF46DA00DA18C9 /* 02-statusBarNotificationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFFD05D41CBF46D900DA18C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = lexiao;
+				TargetAttributes = {
+					CFFD05DB1CBF46D900DA18C9 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					CFFD05F41CBF46DA00DA18C9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CFFD05DB1CBF46D900DA18C9;
+					};
+					CFFD05FF1CBF46DA00DA18C9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CFFD05DB1CBF46D900DA18C9;
+					};
+				};
+			};
+			buildConfigurationList = CFFD05D71CBF46D900DA18C9 /* Build configuration list for PBXProject "02-statusBarNotification" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFFD05D31CBF46D900DA18C9;
+			productRefGroup = CFFD05DD1CBF46DA00DA18C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFFD05DB1CBF46D900DA18C9 /* 02-statusBarNotification */,
+				CFFD05F41CBF46DA00DA18C9 /* 02-statusBarNotificationTests */,
+				CFFD05FF1CBF46DA00DA18C9 /* 02-statusBarNotificationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFFD05DA1CBF46D900DA18C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFD05EF1CBF46DA00DA18C9 /* LaunchScreen.storyboard in Resources */,
+				CFFD05EC1CBF46DA00DA18C9 /* Assets.xcassets in Resources */,
+				CFFD05EA1CBF46DA00DA18C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFD05F31CBF46DA00DA18C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFD05FE1CBF46DA00DA18C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFFD05D81CBF46D900DA18C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFD06181CBF475C00DA18C9 /* JYStatusBar.m in Sources */,
+				CFFD05E71CBF46DA00DA18C9 /* ViewController.m in Sources */,
+				CFFD05E41CBF46DA00DA18C9 /* AppDelegate.m in Sources */,
+				CFFD05E11CBF46DA00DA18C9 /* main.m in Sources */,
+				CFFD061C1CBF6B1100DA18C9 /* CBAutoScrollLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFD05F11CBF46DA00DA18C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFD05FA1CBF46DA00DA18C9 /* _2_statusBarNotificationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFD05FC1CBF46DA00DA18C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFD06051CBF46DA00DA18C9 /* _2_statusBarNotificationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFFD05F71CBF46DA00DA18C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFFD05DB1CBF46D900DA18C9 /* 02-statusBarNotification */;
+			targetProxy = CFFD05F61CBF46DA00DA18C9 /* PBXContainerItemProxy */;
+		};
+		CFFD06021CBF46DA00DA18C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFFD05DB1CBF46D900DA18C9 /* 02-statusBarNotification */;
+			targetProxy = CFFD06011CBF46DA00DA18C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFFD05E81CBF46DA00DA18C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFFD05E91CBF46DA00DA18C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFFD05ED1CBF46DA00DA18C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFFD05EE1CBF46DA00DA18C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFFD06071CBF46DA00DA18C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CFFD06081CBF46DA00DA18C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFFD060A1CBF46DA00DA18C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-statusBarNotification/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LeXiao.-2-statusBarNotification";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFFD060B1CBF46DA00DA18C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-statusBarNotification/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LeXiao.-2-statusBarNotification";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CFFD060D1CBF46DA00DA18C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "02-statusBarNotificationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LeXiao.-2-statusBarNotificationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-statusBarNotification.app/02-statusBarNotification";
+			};
+			name = Debug;
+		};
+		CFFD060E1CBF46DA00DA18C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "02-statusBarNotificationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LeXiao.-2-statusBarNotificationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-statusBarNotification.app/02-statusBarNotification";
+			};
+			name = Release;
+		};
+		CFFD06101CBF46DA00DA18C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "02-statusBarNotificationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LeXiao.-2-statusBarNotificationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "02-statusBarNotification";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CFFD06111CBF46DA00DA18C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "02-statusBarNotificationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LeXiao.-2-statusBarNotificationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "02-statusBarNotification";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFFD05D71CBF46D900DA18C9 /* Build configuration list for PBXProject "02-statusBarNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFD06071CBF46DA00DA18C9 /* Debug */,
+				CFFD06081CBF46DA00DA18C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFFD06091CBF46DA00DA18C9 /* Build configuration list for PBXNativeTarget "02-statusBarNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFD060A1CBF46DA00DA18C9 /* Debug */,
+				CFFD060B1CBF46DA00DA18C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFFD060C1CBF46DA00DA18C9 /* Build configuration list for PBXNativeTarget "02-statusBarNotificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFD060D1CBF46DA00DA18C9 /* Debug */,
+				CFFD060E1CBF46DA00DA18C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFFD060F1CBF46DA00DA18C9 /* Build configuration list for PBXNativeTarget "02-statusBarNotificationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFD06101CBF46DA00DA18C9 /* Debug */,
+				CFFD06111CBF46DA00DA18C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFFD05D41CBF46D900DA18C9 /* Project object */;
+}
