@@ -82,8 +82,6 @@
     [btn addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
     [self.topBar addSubview:btn];
     
-//    [self setNeedsDisplay];
-    
 //    [self performSelector:@selector(dismiss) withObject:nil afterDelay:4];
 }
 
